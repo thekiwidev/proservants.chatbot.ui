@@ -4,6 +4,8 @@ body {
 body div.chatui-wrapper {
   border-radius: 1rem;
   background: gainsboro;
+  max-width: 400px;
+  margin: auto;
 }
 body div.chatui-wrapper header.chatui-header {
   padding: 1rem;
