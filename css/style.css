@@ -33,13 +33,13 @@ body div.chatui-wrapper main.chatui-body .messagings .message {
   border-radius: 0.8rem;
   width: 65%;
 }
+body div.chatui-wrapper main.chatui-body .messagings .message.new {
+  margin-top: 1rem;
+}
 body div.chatui-wrapper main.chatui-body .messagings .message.user-message {
   margin-left: 25%;
   background: #ffa42c;
   color: #090909;
-}
-body div.chatui-wrapper main.chatui-body .messagings .message.user-message.new {
-  margin-top: 1rem;
 }
 body div.chatui-wrapper main.chatui-body form.user-input {
   display: flex;

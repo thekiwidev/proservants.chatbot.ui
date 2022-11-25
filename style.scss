@@ -46,15 +46,15 @@ body {
           border-radius: 0.8rem;
           width: 65%;
 
+          &.new {
+            margin-top: 1rem;
+          }
+
           &.user-message {
             margin-left: 25%;
 
             background: $theme-orange;
             color: $theme-black;
-
-            &.new {
-              margin-top: 1rem;
-            }
           }
         }
       }
