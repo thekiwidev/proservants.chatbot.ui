@@ -19,6 +19,12 @@ body div.chatui-wrapper header.chatui-header {
 body div.chatui-wrapper main.chatui-body .messagings {
   padding: 1rem;
 }
+body div.chatui-wrapper main.chatui-body .messagings:first-child {
+  margin-top: 1rem;
+}
+body div.chatui-wrapper main.chatui-body .messagings:last-child {
+  margin-bottom: 1rem;
+}
 body div.chatui-wrapper main.chatui-body .messagings .message {
   padding: 1rem;
   background: #05ddd7;
